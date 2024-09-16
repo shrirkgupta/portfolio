@@ -1,0 +1,127 @@
+@media (max-width:500px) {
+
+  #preloader{
+    background-size: 90%;
+}
+    
+    /***************************** navbar *************************** */
+    /* ********start****** */
+    .navber {
+        width: 100%;
+        height: 60px;  
+    }
+
+    .menu i {
+        display: block;
+        font-size: 25px;
+    }
+    ul li {
+        display: none;
+    }
+   .logo {
+    display: block;
+    padding: 5px 0;
+    height:60px ;
+   }
+   .full{
+    display: block;
+   }
+
+
+    /* ********end****** */
+      
+/* hero section */
+     /* start */
+
+     .hero{
+        flex-direction: column;
+     }
+     .hero-left{
+        width: 95%;
+        padding: 15vw 30px;
+        padding-top: 0%;
+     }
+     .hero-left h1{
+              font-size: 6vw;
+              font-weight: 650;
+              padding-top: 5px;
+     }
+     .hero-left h2{
+             font-size: 5.5vw;
+             padding-top: 6px;
+             font-weight: 550;
+     }
+     .hero-right{
+        width: 90%;
+        margin-top: -10px;
+     }
+     .hero-right img{
+        height: 225px;
+     }
+     .logo-slide{
+        padding: 5px 0px 0 0 ;
+    }
+    .logo-slider img {
+        height: 26px;
+         margin: 0 18px;
+    }
+      /* ************************freelancingl ****************** */
+
+      .freelancing-main{
+        background-image: url(https://i.pinimg.com/236x/34/d7/30/34d7301e51c7f2b90a0c45fb326d306e.jpg);
+      }
+      .freelancing-inner h2 {
+        padding: 10px;
+        font-size: 7vw;
+        color: rgb(255, 250, 250);
+        filter: drop-shadow(1px 1px 0px rgb(0, 0, 0));
+    
+    }
+      .freelancing-inner p {
+        padding: 0px 5px;
+        font-size: 4.5vw;
+        color: rgb(252, 245, 245);
+        filter: drop-shadow(1px 1px 1px rgb(29, 24, 24));
+    }
+    .free-button{
+      background-color:  #679737ad;
+      padding: 8px 24px;
+     }
+     .free-button:before {
+      border: 2px double  #4188b1;
+        }
+
+  /* ************************ skill ****************** */
+   
+  .skill-down .box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+.skill-down{
+    width: 85%;
+    gap: 20px 30px;
+    
+}
+
+  /* ************************ Project****************** */
+
+
+.project-down {
+  width: 90%;
+  gap: 38px 15px;
+}
+ .project-down .box{
+  /* height: 255px; */
+  /* min-width:  65vw; */
+
+} 
+.project-down .box  img{
+  border-radius: 12px;
+  max-width:  80vw;
+  min-width:  30vw;
+
+  /* width: 280px; */
+  /* width: 40vw; */
+}    
+}
